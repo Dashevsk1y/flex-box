@@ -300,14 +300,10 @@ header nav ul li a {
 
 .content-right .bottom .bottom-news img {
     border: 2px solid #949788;
-    /* margin-right: 10px; */
-    /* flex-basis: ; */
 }
 
 .content-right .bottom .bottom-news .news {
     flex-basis: 60%;
-    /* padding: 10px; */
-
 }
 
 .content-right .bottom .bottom-news .news h3 {
@@ -324,7 +320,6 @@ header nav ul li a {
 }
 
 .content-right .bottom .news-link {
-    /* border: 1px solid black; */
     width: 80%;
     margin: 40px auto 0;
 }
@@ -357,7 +352,6 @@ header nav ul li a {
 
 footer {
     margin-top: 15px;
-    /* border: 1px solid #000; */
 }
 
 footer nav ul {

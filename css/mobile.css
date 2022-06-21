@@ -1,0 +1,196 @@
+@media (max-width: 1280px) {
+    .content-right .top {
+        flex-basis: 40%;
+    }
+
+    .content-right .bottom {
+        flex-basis: auto;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0;
+    }
+
+    .banner div {
+        margin-left: 100px;
+    }
+
+    .content-right .top {
+        flex-basis: 40%;
+    }
+
+    .content-right .bottom {
+        flex-basis: auto;
+    }
+
+    .content-left section {
+        flex-basis: auto;
+
+    }
+}
+
+@media (max-width: 830px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .content-left {
+        order: 2;
+    }
+
+    .content-right .top,
+    .content-right .bottom {
+        margin-bottom: 10px;
+    }
+
+    .banner div p:first-child {
+        font-size: 5vw;
+    }
+
+    .banner div p:last-child {
+        font-size: 6vw;
+        font-weight: bold;
+        text-indent: 2vw;
+    }
+
+    .logo p:first-child {
+        font-size: 3vw;
+    }
+
+    .logo p:last-child {
+        font-size: 2vw;
+
+    }
+
+
+    footer nav ul li a {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top .logo {
+        margin-bottom: 10px;
+        width: 70vw;
+
+    }
+
+    header .top form {
+        display: flex;
+        width: 70vw;
+    }
+
+    header .top form input {
+        width: 80%;
+    }
+
+
+    header nav ul li {
+        height: 20px;
+    }
+
+    .content-right .bottom .bottom-news {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-right .bottom .news-link {
+        margin-bottom: 40px;
+        width: 80%;
+    }
+
+    .content-right .bottom .news-link a {
+        font-size: 14px;
+    }
+
+    .content-left .left-bottom .left p {
+        font-size: 4vw;
+
+    }
+
+    .content-left .left-bottom .left p span {
+        font-size: 5vw;
+
+    }
+
+    footer nav ul {
+        display: none;
+    }
+
+    header nav {
+        position: fixed;
+        width: 80vw;
+        height: 80vh;
+        left: 10%;
+        top: 0;
+        z-index: 1;
+        opacity: 0.9;
+        border-radius: 5px;
+        margin-top: -100vh;
+        transition: 0.7s;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        height: 80vh;
+        border-bottom: none;
+
+    }
+
+    nav ul li a {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li {
+        transition: 0.5s;
+    }
+
+    nav ul li:hover {
+        background: #93dd14;
+        border-radius: 5px;
+    }
+
+    header input[type="checkbox"] {
+        display: none;
+    }
+
+    header input[type="checkbox"]:checked~nav {
+        margin-top: 0vh;
+    }
+
+    header label {
+        position: fixed;
+        right: 20px;
+        top: 22px;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 3;
+
+    }
+
+    .banner div {
+        margin-left: 50px;
+    }
+
+}
+
+@media (min-width: 601px) {
+
+    header input[type="checkbox"],
+    header label {
+        display: none;
+    }
+}
